@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('/build/fonts/icomoon.eot?opk08v');
+    src:  url('/build/fonts/icomoon.eot?opk08v#iefix') format('embedded-opentype'),
+    url('/build/fonts/icomoon.ttf?opk08v') format('truetype'),
+    url('/build/fonts/icomoon.woff?opk08v') format('woff'),
+    url('/build/fonts/icomoon.svg?opk08v#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-like:before {
+    content: "\e900";
+}
+.icon-clock2:before {
+    content: "\e94f";
+}
+.icon-user:before {
+    content: "\e971";
+}
+.icon-eye:before {
+    content: "\e9ce";
+}
+
+
+.navbar-content,.home-content{
+    width: 1190px;
+    margin: 0 auto;
+}
+.home-content{
+    margin-top: 20px;
+}
+.home-left{
+    width : 880px;
+}
+.home-right{
+    width : 310px;
+}
+.article-list{
+    margin-bottom: 48px;
+}
+.article-tit{
+    color: #428bca;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.article-tit:hover{
+    text-decoration: underline;
+}
+.article-message,.article-stage{
+    margin-bottom: 9px;
+}
+.article-message{
+
+}
+.icon-font-content{
+    margin-right: 12px;
+    display: inline-block;
+}
+.icon-font-content i{
+    margin-right: 4px;
+}
